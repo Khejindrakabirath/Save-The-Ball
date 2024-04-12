@@ -1,2 +1,2 @@
-# codes are the master branch
+# Source codes are at the master branch
 
