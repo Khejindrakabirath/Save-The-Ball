@@ -1,0 +1,40 @@
+name: save_the_ball
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  audioplayers: ^5.2.1
+  video_player: ^2.8.2 
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  firebase_storage: ^11.6.10
+  cloud_firestore: ^4.15.9
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/gameImages/
+    - assets/video/scienceVideo.mp4
+    - assets/sounds/
+    - assets/sounds/Correct.mp3
+
+    
+  fonts:
+    - family: FontMain
+      fonts:
+        - asset: assets/fonts/KodeMono-VariableFont_wght.ttf

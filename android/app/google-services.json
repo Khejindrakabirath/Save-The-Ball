@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717175042160",
+    "project_id": "save-the-ball-10",
+    "storage_bucket": "save-the-ball-10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717175042160:android:a892af191dd874c58104b5",
+        "android_client_info": {
+          "package_name": "com.example.save_the_ball"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw2onwML1oDOEq6OFjp7s2KQGL5qNhy4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
