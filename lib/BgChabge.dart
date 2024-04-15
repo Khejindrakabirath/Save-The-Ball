@@ -57,7 +57,7 @@ class _BgState extends State<Bg> {
                     },
                     child: const Center(
                       child: Text(
-                        'Change Color',
+                        'Change Color of the body',
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
