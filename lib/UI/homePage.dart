@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                       child: const Column(
                         children: [
                           Text(
-                            "Developers:",
+                            "Developer:",
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
@@ -154,25 +154,7 @@ class _HomePageState extends State<HomePage> {
                             height: 20,
                           ),
                           Text(
-                            'Abhinash Chaudhary',
-                            style: TextStyle(
-                              fontSize: 25,
-                              fontWeight: FontWeight.bold,
-                              fontFamily: "FontMain",
-                              color: Color.fromRGBO(253, 247, 1, 1),
-                            ),
-                          ),
-                          Text(
                             'Khejindra Kabirath',
-                            style: TextStyle(
-                              fontSize: 25,
-                              fontWeight: FontWeight.bold,
-                              fontFamily: "FontMain",
-                              color: Color.fromRGBO(253, 247, 1, 1),
-                            ),
-                          ),
-                          Text(
-                            'Brahamdev Rajak',
                             style: TextStyle(
                               fontSize: 25,
                               fontWeight: FontWeight.bold,
