@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
       home: Scaffold(
         // drawer: Drawer(),
         appBar: AppBar(
-          flexibleSpace: Container(
+          flexibleSpace: AnimatedContainer(
+            duration: const Duration(seconds: 1),
             color: AppBarColor,
           ),
           actions: [
@@ -120,7 +121,8 @@ class _HomePageState extends State<HomePage> {
             image: DecorationImage(
                 image: AssetImage("assets/images/main.jpg"), fit: BoxFit.cover),
           ),
-          child: Container(
+          child: AnimatedContainer(
+            duration: const Duration(seconds: 1),
             color: Bodybackgroundcolor,
             child: Column(
               children: [

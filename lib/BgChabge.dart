@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:save_the_ball/asset/fetch_data.dart';
 
 class Bg extends StatefulWidget {
@@ -29,7 +30,8 @@ class _BgState extends State<Bg> {
             // Use Stack for layering
             children: [
               // Background image container (optional)
-              Container(
+              AnimatedContainer(
+                duration: const Duration(seconds: 3),
                 decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
